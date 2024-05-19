@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle-orbit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    position: relative;
+    background-color: #000;
+
+    .sun {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/2146px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg');
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-size: 100% 100%;
+    }
+
+    .mercury-orbit {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border: 0.1px #837f7e solid;
+        border-radius: 100%;
+animation: rotate 5s linear infinite;
+        .mercury-orbit-cirlces {
+            position: absolute;
+            top: 70px;
+            left: -6px;
+            height: 10px;
+            width: 10px;
+            border-radius: 100%;
+            background: radial-gradient(at top, #dbdbdb, #454545);
+        }
+    }
+
+    .venus-orbit {
+        width: 200px;
+        height: 200px;
+        border: 0.1px #8e4613 solid;
+        border-radius: 100%;
+        position: absolute;
+        animation:rotate 8s linear infinite;
+
+        .venus-orbit-cirlces {
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            height: 15px;
+            width: 15px;
+            border-radius: 100%;
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/PIA00271_Venus_%28Computer_Simulated_Global_View_of_the_Northern_Hemisphere%29.jpg/600px-PIA00271_Venus_%28Computer_Simulated_Global_View_of_the_Northern_Hemisphere%29.jpg) no-repeat;
+            background-size: 100% 100%;
+            box-shadow: .5px 3px 5px black inset;
+        }
+    }
+
+    .earth-orbit {
+        width: 270px;
+        height: 270px;
+        border: 0.1px #0f7dd1 solid;
+        border-radius: 100%;
+        position: absolute;
+        animation:rotate 10s linear infinite;
+
+        .earth-orbit-cirlces {
+            position: absolute;
+            top: -15px;
+            left: 125px;
+            height: 25px;
+            width: 25px;
+            border-radius: 100%;
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Earth-DSCOVR-20150706-IFV.jpg/610px-Earth-DSCOVR-20150706-IFV.jpg);
+            background-size: 120% 120%;
+
+        }
+    }
+
+    .mars-orbit {
+        width: 340px;
+        height: 340px;
+        border: 0.1px rgb(231, 124, 9) solid;
+        border-radius: 100%;
+        position: absolute;
+        animation:rotate 20s linear infinite;
+
+        .mars-orbit-cirlces {
+            position: absolute;
+            top: -10px;
+            left: 125px;
+            height: 25px;
+            width: 25px;
+            border-radius: 100%;
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_23_aug_2003_hubble.jpg/267px-Mars_23_aug_2003_hubble.jpg);
+            background-size: 100% 100%;
+        }
+    }
+
+    .jupiter-orbit {
+        width: 420px;
+        height: 420px;
+        border: 0.1px rgb(129, 111, 111) solid;
+        border-radius: 100%;
+        position: absolute;
+        animation:rotate 30s linear infinite;
+
+        .jupiter-orbit-cirlces {
+            position: absolute;
+            top: -5px;
+            left: 125px;
+            height: 32px;
+            width: 32px;
+            border-radius: 100%;
+            background: url(https://solarsystem.nasa.gov/internal_resources/3794/);
+            background-size: 150% 150%;
+            background-position: center center;
+        }
+    }
+
+    .saturn-orbit {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        border: 0.1px rgb(233, 243, 124) solid;
+        border-radius: 100%;
+        animation:rotate 60s linear infinite;
+
+        .saturn-orbit-cirlces {
+            position: absolute;
+            top: -5px;
+            left: 125px;
+            height: 55px;
+            width: 55px;
+            border-radius: 100%;
+            background: url(https://rwspace.ru/wp-content/uploads/2018/12/2-17.jpg);
+            background-size: 100% 100%;
+            background-position: center center;
+        }
+    }
+
+    .uranus-orbit {
+        position: absolute;
+        width: 580px;
+        height: 580px;
+        border: 0.1px rgb(185, 239, 247) solid;
+        border-radius: 100%;
+        animation:rotate 70s linear infinite;
+        .uranus-orbit-cirlces {
+            position: absolute;
+            top: 20px;
+            left: 125px;
+            height: 38px;
+            width: 38px;
+            border-radius: 100%;
+            background: radial-gradient(circle at top, #a9f5f5, #3c7483);
+        }
+    }
+
+    .neptune-orbit {
+        width: 660px;
+        height: 660px;
+        border: 0.1px rgb(69, 105, 248) solid;
+        border-radius: 100%;
+        position: absolute;
+        animation:rotate 100s linear infinite;
+
+        .neptune-orbit-cirlces {
+            position: absolute;
+            top: 45px;
+            left: 125px;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/600px-Neptune_Full.jpg);
+            background-size: 120% 120%;
+            background-position: center center;
+        }
+    }
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

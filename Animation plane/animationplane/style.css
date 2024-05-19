@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.plane .container {
+  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPRaII37HH1EywxMv7lva095T5ZkG3LPbtsjM9TQGUHGZodjVP-aqMOyRS29Iy7GqnSDsSz8uwBIA9EMGunNOYptflStyX1F1BdvKKBXVyBnm5aOubEkqqcWXfnmXJHgQrFKxX2ruOH9Ymrut1XZop_BLVhvjgWYzmQpfgCb60MmgrMo_NMd9IQ-mr/s1600/mvehfqz6w2ges2dj.jpg);
+  background-size: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1423px;
+}
+.plane .container img {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.plane .container .plane {
+  margin-top: 60px;
+  width: 50%;
+  position: absolute;
+  right: 30%;
+  animation: move-plane 5s infinite linear;
+}
+.plane .container .birds {
+  width: 40%;
+  margin: 20px;
+  right: -750px;
+  top: 50px;
+  animation: move-cloud 20s infinite linear;
+}
+.plane .container .cloud {
+  opacity: 0.5;
+  width: 40%;
+  right: -200px;
+  bottom: 90px;
+  animation: move-cloud 25s infinite linear;
+}
+
+@keyframes move-plane {
+  0% {
+    top: 60px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 60px;
+  }
+}
+@keyframes move-cloud {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: -1000px;
+  }
+}/*# sourceMappingURL=style.css.map */
