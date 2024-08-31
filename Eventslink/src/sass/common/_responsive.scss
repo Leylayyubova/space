@@ -1,0 +1,414 @@
+// @media screen and (max-width: 480px) {
+//     .eventslink {
+//         display: flex;
+
+//         .container {
+//             .topbar {
+//                 margin: 0 auto;
+//                 align-items: center !important;
+
+//                 .menu {
+//                     li {
+//                         a {
+//                             font-size: 9px !important;
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .right {
+//                 display: none !important;
+//             }
+//         }
+//     }
+
+//     .enjoy {
+//         height: 350px;
+
+//         .container {
+//             top: 15% !important;
+//             left: 70px !important;
+//             width: 70% !important;
+
+//             h4 {
+//                 font-size: 22px !important;
+//                 line-height: 30px !important;
+//             }
+
+//             p {
+//                 font-size: 16px !important;
+//             }
+//         }
+//     }
+
+//     .events {
+//         .container {
+//             .title {
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+
+//             .swiper-wrapper {
+//                 align-items: center;
+
+//                 .swiper-slide {
+//                     width: 100% !important;
+//                 }
+//             }
+//         }
+//     }
+
+//     .upcoming {
+//         .container {
+//             .title {
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+
+//             .swiper-wrapper {
+//                 .swiper-slide {
+//                     width: 100% !important;
+//                 }
+//             }
+//         }
+//     }
+
+//     .join {
+//         margin-top: 100px !important;
+
+//         .container {
+//             flex-direction: column;
+//             padding: 20px;
+//             gap: 100px !important;
+
+//             .content {
+//                 width: 300px !important;
+//                 text-align: center;
+
+//                 h4 {
+//                     font-size: 20px;
+//                     line-height: 36px;
+//                 }
+
+//                 p {
+//                     font-size: 16px;
+//                     line-height: 20px;
+//                 }
+
+//                 button {
+//                     width: 100px;
+//                     height: 36px;
+//                     padding: 10px 20px;
+//                     font-size: 16px;
+//                 }
+//             }
+
+//         }
+//     }
+
+//     footer {
+//         margin-top: 80px !important;
+
+//         .container {
+//             padding-top: 10px;
+//             margin: 0 25px;
+
+//             .menu {
+//                 gap: 10px;
+
+//                 li {
+//                     a {
+//                         font-size: 15px !important;
+//                     }
+//                 }
+//             }
+
+//             .contact {
+//                 margin-top: 30px;
+//                 display: block !important;
+
+//                 p {
+//                     font-size: 18px;
+//                     line-height: 26px;
+//                 }
+
+//                 .mail {
+//                     font-size: 12px;
+//                     line-height: 18px;
+
+//                     object {
+//                         width: 18px;
+//                         height: 18px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 768px) {
+//     .eventslink {
+//         display: flex;
+
+//         .container {
+//             .topbar {
+//                 margin: 0 auto;
+//                 align-items: center !important;
+//             }
+
+//             .right {
+//                 display: none !important;
+//             }
+//         }
+//     }
+
+//     .enjoy {
+//         height: 350px;
+
+//         .container {
+//             top: 15% !important;
+
+//             // width: 60% !important;
+//             h4 {
+//                 font-size: 22px !important;
+//                 line-height: 30px !important;
+//             }
+//         }
+//     }
+
+//     .activity {
+//         .container {
+//             flex-direction: column;
+//             align-items: center;
+//             margin-top: 30px;
+//             margin-bottom: 60px;
+
+//             .info {
+//                 margin-top: 10px;
+
+//                 .circle {
+//                     width: 150px;
+//                     height: 150px;
+//                 }
+
+//                 p {
+//                     font-size: 20px;
+//                     line-height: 30px;
+//                     margin-top: 12px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .events {
+//         .container {
+//             .title {
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+
+//             .swiper-wrapper {
+//                 align-items: center;
+
+//                 .swiper-slide {
+//                     width: 50% !important;
+//                 }
+//             }
+//         }
+//     }
+
+//     .upcoming {
+//         .container {
+//             .title {
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+
+//             .swiper-wrapper {
+//                 .swiper-slide {
+//                     width: 50% !important;
+//                 }
+//             }
+//         }
+//     }
+
+//     .destinations {
+//         .container {
+//             h2 {
+//                 font-size: 24px;
+//                 line-height: 36px;
+//                 text-align: center;
+//             }
+
+//             .country {
+//                 flex-direction: column;
+//                 align-items: center;
+
+//                 .circle {
+//                     display: flex;
+//                     flex-direction: column;
+//                     align-items: center;
+//                     width: 100%;
+//                     height: auto;
+
+//                     img {
+//                         width: 100%;
+//                         height: auto;
+//                     }
+
+//                     p {
+//                         font-size: 20px;
+//                         line-height: 30px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .join {
+//         margin-top: 100px !important;
+
+//         .container {
+//             flex-direction: column;
+//             padding: 20px;
+//             gap: 60px !important;
+
+//             .content {
+//                 width: 415px !important;
+//                 text-align: center;
+
+//                 h4 {
+//                     font-size: 20px;
+//                     line-height: 36px;
+//                 }
+
+//                 p {
+//                     font-size: 16px;
+//                     line-height: 20px;
+//                 }
+
+//                 button {
+//                     width: 100px;
+//                     height: 36px;
+//                     padding: 10px 20px;
+//                     font-size: 16px;
+//                 }
+//             }
+//         }
+//     }
+
+//     footer {
+//         margin-top: 80px !important;
+
+//         .container {
+//             padding-top: 10px;
+//             margin: 0 25px;
+
+//             .menu {
+//                 gap: 10px;
+
+//                 li {
+//                     a {
+//                         font-size: 15px !important;
+//                     }
+//                 }
+//             }
+
+//             .contact {
+//                 margin-top: 30px;
+//                 display: block !important;
+
+//                 p {
+//                     font-size: 18px;
+//                     line-height: 26px;
+//                 }
+
+//                 .mail {
+//                     font-size: 12px;
+//                     line-height: 18px;
+
+//                     object {
+//                         width: 18px;
+//                         height: 18px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+// @media screen and (max-width:1020px) {
+//     .enjoy {
+//         height: 350px;
+
+//         .container {
+//             top: 10% !important;
+//         }
+//     }
+
+//     .activity {
+//         .container {
+//             flex-direction: column;
+//             align-items: center;
+//             margin-top: 30px;
+//             margin-bottom: 60px;
+
+//         }
+//     }
+
+//     .destinations {
+//         .container {
+//             h2 {
+//                 font-size: 24px;
+//                 line-height: 36px;
+//                 text-align: center;
+//             }
+
+//             .country {
+//                 flex-direction: column;
+//                 align-items: center;
+
+//                 .circle {
+//                     display: flex;
+//                     flex-direction: column;
+//                     align-items: center;
+//                     width: 100%;
+//                     height: auto;
+//                 }
+//             }
+//         }
+//     }
+    
+//     .events {
+//         .container {
+//             .title {
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+
+//             .swiper-wrapper {
+//                 align-items: center;
+
+//                 .swiper-slide {
+//                     width: 33% !important;
+//                 }
+//             }
+//         }
+//     }
+
+//     .upcoming {
+//         .container {
+//             .title {
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+
+//             .swiper-wrapper {
+//                 .swiper-slide {
+//                     width: 33% !important;
+//                 }
+//             }
+//         }
+//     }
+// }
